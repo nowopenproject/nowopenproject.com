@@ -10,4 +10,4 @@ html {
 body { display: flex; min-height: 100vh; flex-direction: column; font-family: proxima nova, sans-serif; font-size: 1.2rem; }
 #content { flex: 1; background: url('../images/bg-brick.jpg') no-repeat; background-size: 100%; }
 .serif { font-family: athelas, serif; }
-.logo { display: block; }
+.card-location { background-color: transparent; width: 140px; }
