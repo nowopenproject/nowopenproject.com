@@ -9,5 +9,23 @@ html {
 }
 body { display: flex; min-height: 100vh; flex-direction: column; font-family: proxima nova, sans-serif; font-size: 1.2rem; }
 #content { flex: 1; background: url('../images/bg-brick.jpg') no-repeat; background-size: 100%; }
+.logo { width: 600px; }
+.kern-sm { letter-spacing: 2px; }
+.kern-lg { letter-spacing: 5px; }
 .serif { font-family: athelas, serif; }
 .card-location { background-color: transparent; width: 140px; }
+.red { color: #ED1C24; }
+.yellow { color: #F8A800; }
+.btn-primary { background-color: #ED1C24; border-color: #ED1C24; }
+.btn-primary:hover { background-color: #CA1219; border-color: #CA1219; }
+.btn-primary:active { background-color: #CA1219; border-color: #CA1219; }
+.btn-primary:focus { color: #CA1219; box-shadow: 0 0 0 2px rgba(202,18,25,.5); }
+
+footer { bottom: 0; background-color: #F5F5F5; font-size: .875rem; }
+footer a { color: #000000; cursor: pointer; cursor: hand; }
+footer a:link { color: #000000; }
+footer a:focus { color: #000000; }
+footer a:visited { color: #000000; }
+footer a:hover { color: #000000; border-bottom: #F8A800 solid 2px; text-decoration: none; }
+footer a:active { color: #B68000; }
+footer .active { border-bottom: #F8A800 solid 2px; text-decoration: none; }
