@@ -7,7 +7,7 @@ html {
 @media (max-width: 400px) {
   html { font-size: 14px; }
 }
-body { display: flex; min-height: 100vh; flex-direction: column; font-family: proxima nova, sans-serif; font-size: 1.2rem; background: url('../images/bg-brick.jpg') no-repeat; background-size: 100%; }
+body { display: flex; min-height: 100vh; flex-direction: column; font-family: proxima nova, sans-serif; font-size: 1.2rem; background: url('../images/bg-brick.jpg') repeat-y; background-size: 100%; }
 #content { flex: 1; }
 .logo { width: 600px; }
 .kern-sm { letter-spacing: 2px; }
@@ -21,7 +21,7 @@ body { display: flex; min-height: 100vh; flex-direction: column; font-family: pr
 .btn-primary:active { background-color: #CA1219; border-color: #CA1219; }
 .btn-primary:focus { color: #CA1219; box-shadow: 0 0 0 2px rgba(202,18,25,.5); }
 
-footer { bottom: 0; background-color: #F5F5F5; font-size: .875rem; }
+footer { bottom: 0; background-color: #E1E2E4; font-size: .875rem; }
 footer a { color: #000000; cursor: pointer; cursor: hand; }
 footer a:link { color: #000000; }
 footer a:focus { color: #000000; }
